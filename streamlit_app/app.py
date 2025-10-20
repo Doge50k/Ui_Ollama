@@ -2,10 +2,8 @@
 import streamlit as st
 import ollama
 
-# --- Início da Correção ---
-# Informa o endereço correto do servidor Ollama, usando o nome do serviço do docker-compose
+# Informa o endereço do servidor Ollama, usando o nome do serviço do docker-compose
 client = ollama.Client(host='http://ollama:11434')
-# --- Fim da Correção ---
 
 # Configuração da página
 st.set_page_config(page_title="Gemma 2B Chatbot", layout="wide")
