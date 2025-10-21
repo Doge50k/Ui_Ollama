@@ -1,4 +1,4 @@
-# streamlit_app/app.py (VERSÃO CORRIGIDA)
+# streamlit_app/app.py
 import streamlit as st
 import ollama
 
