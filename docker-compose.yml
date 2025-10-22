@@ -24,12 +24,56 @@ services:
         - "8501:8501"
       depends_on:
         - ollama
+        - logstash
       restart: unless-stopped
+      networks:
+        - llm_net
+
+  # --- Serviço de Logging Logstash ---
+  logstash:
+      image: docker.elastic.co/logstash/logstash:8.19.5
+      container_name: logstash_processor
+      ports:
+        - "50000:50000/tcp"
+      volumes:
+        - ./logstash/:/usr/share/logstash/pipeline/
+      depends_on:
+        - elasticsearch
+      networks:
+        - llm_net
+      restart: unless-stopped
+
+  # --- Serviço Elasticsearch ---
+  elasticsearch:
+      image: docker.elastic.co/elasticsearch/elasticsearch:8.19.5
+      container_name: elasticsearch_db
+      environment:
+        - discovery.type=single-node
+        - ES_JAVA_OPTS=-Xms512m -Xmx512m
+        - xpack.security.enabled=false # Segurança desabilitada para desenvolvimento
+      volumes:
+        - es_data:/usr/share/elasticsearch/data
+      ports:
+        - "9200:9200"
+      networks:
+        - llm_net
+
+  # --- Serviço Kibana ---
+  kibana:
+      image: docker.elastic.co/kibana/kibana:8.19.5
+      container_name: kibana_dashboard
+      ports:
+        - "5601:5601"
+      depends_on:
+        - elasticsearch
+      environment:
+        - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
       networks:
         - llm_net
 
 volumes:
   ollama_data:
+  es_data:
 
 networks:
   llm_net:
