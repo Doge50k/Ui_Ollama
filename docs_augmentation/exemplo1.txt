@@ -1,0 +1,14 @@
+O Pix é o sistema de pagamentos instantâneos brasileiro, criado e gerenciado pelo Banco Central do Brasil. 
+Lançado oficialmente em novembro de 2020, o sistema foi projetado para revolucionar as transações financeiras no país, 
+permitindo a transferência de fundos e a realização de pagamentos em poucos segundos, 24 horas por dia, 7 dias por semana, incluindo feriados. 
+Para utilizar o sistema, os usuários associam suas contas bancárias a "chaves Pix", que podem ser o CPF/CNPJ, número de telefone celular, 
+endereço de e-mail ou uma chave aleatória gerada pelo sistema. Essa abordagem simplifica o processo de transferência, 
+eliminando a necessidade de digitar informações bancárias detalhadas como agência e número da conta. 
+As transações também podem ser realizadas através da leitura de QR Codes estáticos ou dinâmicos, o que facilitou enormemente sua adoção no comércio. 
+A adesão ao Pix foi massiva e extremamente rápida, superando em poucos meses o volume de transações de métodos tradicionais como TED e DOC. 
+O sucesso do sistema é atribuído à sua conveniência, velocidade e baixo custo, sendo gratuito para pessoas físicas na maioria das operações. 
+O Pix promoveu uma notável inclusão financeira, permitindo que milhões de brasileiros com acesso limitado a serviços bancários pudessem realizar transações digitais de forma simples e segura.
+Para as empresas, representou uma redução de custos operacionais e a imediata disponibilidade dos recursos de vendas. 
+Apesar do sucesso, o sistema também trouxe desafios de segurança, como o aumento de golpes de engenharia social. 
+Em resposta, o Banco Central implementou medidas como limites de valor para transações noturnas e mecanismos para facilitar a devolução de valores em casos de fraude,
+buscando continuamente aprimorar a segurança da plataforma.

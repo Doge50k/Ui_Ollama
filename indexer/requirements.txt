@@ -1,0 +1,15 @@
+# Nucleo langchain
+langchain==0.3.27
+langchain_community==0.3.31
+langchain-text-splitters==0.3.11
+langchain-core==0.3.79
+langchain-ollama==0.3.10
+langchain-elasticsearch==0.3.2
+
+# Clientes
+elasticsearch==8.19.1
+ollama==0.6.0
+
+# Utilitários
+requests==2.32.5
+tqdm==4.67.1

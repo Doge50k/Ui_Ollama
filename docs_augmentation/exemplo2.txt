@@ -1,0 +1,6 @@
+Em 2023, uma cooperativa agrícola de Canaã dos Carajás implantou um sistema de monitoramento de safra baseado em visão computacional e análise geoespacial. 
+As câmeras instaladas em drones capturavam imagens semanais das plantações, e o modelo de IA realizava a detecção de pragas, 
+irregularidades no solo e estimativas de produtividade por talhão. O sistema também cruzava informações de umidade e temperatura, integradas por sensores IoT, 
+para emitir alertas preventivos sobre condições que poderiam afetar o rendimento. 
+Com isso, a cooperativa reduziu em 31% as perdas por pragas e aumentou a eficiência no uso de defensivos agrícolas, 
+mantendo todos os dados armazenados em servidores locais para facilitar auditorias e proteger informações comerciais sensíveis.

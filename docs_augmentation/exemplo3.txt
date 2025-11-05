@@ -1,0 +1,6 @@
+Em 2022, a prefeitura de Paraíso do Tocantins iniciou um projeto piloto para automatizar o controle de estoques de medicamentos nas unidades básicas de saúde 
+utilizando um sistema local de inteligência artificial desenvolvido em Python. O modelo, treinado com dados históricos de consumo e entregas, previa a demanda 
+semanal de cada medicamento com base em sazonalidade e perfil de atendimento de cada bairro. 
+O projeto reduziu em 23% o desperdício de remédios vencidos e otimizou o tempo de reposição em 18 horas, 
+permitindo ao almoxarifado planejar melhor suas compras e transporte. Essa solução foi implementada em servidores locais, sem depender de nuvem, 
+para garantir segurança de dados e conformidade com as políticas municipais de privacidade.
