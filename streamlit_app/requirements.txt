@@ -1,3 +1,15 @@
+# Requerimentos para o aplicativo Streamlit
 streamlit==1.39.0
-ollama==0.2.1
 python-logstash-async==4.0.2
+
+# Núcleo LangChain
+langchain==0.3.27
+langchain-core==0.3.79
+langchain_community==0.3.31
+langchain-ollama==0.3.10
+langchain-elasticsearch==0.3.2
+langchain-text-splitters==0.3.11
+
+# Clientes
+elasticsearch==8.19.1
+ollama==0.6.0
